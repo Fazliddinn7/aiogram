@@ -29,7 +29,7 @@ async def echo(msg: types.Message, bot: Bot):
 
 
 async def start():
-    bot = Bot('7061245022:AAFgL4MH4BDhwkwGUri1JlD_cSsuLkUjp8g', default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+    bot = Bot('', default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     await dp.start_polling(bot, polling_timeout=1)
 
 

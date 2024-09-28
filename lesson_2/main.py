@@ -15,7 +15,7 @@ async def start():
     dp.startup.register(start_answer)
     dp.message.register(get_user_info)
     dp.shutdown.register(shutdown_answer)
-    bot = Bot(token='7061245022:AAFgL4MH4BDhwkwGUri1JlD_cSsuLkUjp8g',
+    bot = Bot(token='',
               default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     await dp.start_polling(bot, polling_timeout=1)
 
